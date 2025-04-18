@@ -1,0 +1,19 @@
+{
+  "data": {
+    "raw_data_path": "data/raw/large_purchases.csv",
+    "processed_data_path": "data/processed/"
+  },
+  "model": {
+    "type": "RandomForest",
+    "parameters": {
+      "n_estimators": 100,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    }
+  },
+  "logging": {
+    "log_file": "project.log",
+    "log_level": "INFO"
+  }
+}
